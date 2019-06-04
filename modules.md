@@ -1,6 +1,6 @@
 ## Modules
 
-### Arbitrary Code Execution
+Most of my modules have gone to the Metasploit repository. There is really a lot of them, from exploits, auxiliary, post modules, evasion, tools, etc. It would take a long time to compile all that into a list. However, you can try to find the rest [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r) with a search. For now, here is a list of exploits I've personally written. I'd also like to thank those who have worked with me to write these exploits together. All wonderful memories.
 
 * May 24 2019 - Oracle Application Testing Suite WebLogic Server Administration Console War Deployment
 * May 01 2019 - Ruby On Rails DoubleTap Development Mode secret_key_base Remote Code Execution
@@ -169,9 +169,4 @@
 * May 06 2010 - Ziepod+ 1.0 Cross Application Scripting
 * Feb 05 2010 - Ipswitch IMail Server 11.0 Password Decryptor
 * Jan 07 2010 - Quick Player 1.2 Unicode Buffer Overflow
-* Dec 13 2019 - [HP NNM 7.53 ovalarm.exe Buffer Overflow](./modules/hp_nnm_ovalarm_buffer_overflow/readme.md)
-
-### Others
-
-* Dec 29 2019 - Win32 addFirewallRule Shellcode
-* Dec 21 2019 - Zone.Identifier ADS Shellcode Bypass
+* Dec 13 2019 - [HP NNM 7.53 ovalarm.exe Buffer Overflow](./modules/hp_nnm_ovalarm_buffer_overflow.py)
