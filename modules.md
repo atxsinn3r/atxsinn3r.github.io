@@ -1,5 +1,4 @@
 ## Modules
 
-Modules will be hosted here, but for now, you can find some of my modules here:
 
-[https://packetstormsecurity.com/files/author/7652/](https://packetstormsecurity.com/files/author/7652/)
+* Dec 13 2019 - [HP NNM 7.53 ovalarm.exe Buffer Overflow](./modules/hp_nnm_ovalarm_buffer_overflow/readme.md)
