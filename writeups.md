@@ -49,3 +49,4 @@
 * Oct 26 2013 - Practical Browser Exploit Development with Metasploit
 * Oct 26 2013 - Synchronized Multimedia Integration Language (SMIL) for Heap Control
 * Oct 20 2010 - In Memory Fuzzing - Real time Input Tracing and In Memory Fuzzing
+* Jun 06 2010 - How Strong is Your Fu 2 Offensive Security CTF Report
