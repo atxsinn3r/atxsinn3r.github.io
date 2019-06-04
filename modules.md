@@ -171,7 +171,7 @@
 * Jan 07 2010 - Quick Player 1.2 Unicode Buffer Overflow
 * Dec 13 2019 - [HP NNM 7.53 ovalarm.exe Buffer Overflow](./modules/hp_nnm_ovalarm_buffer_overflow/readme.md)
 
-** Others
+### Others
 
 * Dec 29 2019 - Win32 addFirewallRule Shellcode
 * Dec 21 2019 - Zone.Identifier ADS Shellcode Bypass
