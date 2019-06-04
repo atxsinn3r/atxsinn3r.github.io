@@ -2,8 +2,8 @@
 
 **Metasploit Framework**
 
-I am an active contributor for the Metasploit Framework since 2011, and I have been the highest
-committer since [Nov 2015](https://twitter.com/_sinn3r) (data from OpenHub). Most of my work at Metasploit
+I have been an active contributor for the Metasploit Framework since 2011, and have earned the highest
+committer status since [Nov 2015](https://twitter.com/_sinn3r) (data from OpenHub). Most of my work at Metasploit
 can be found on the Github repository as an [author](https://github.com/rapid7/metasploit-framework/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Awchen-r7) or an [assignee](https://github.com/rapid7/metasploit-framework/pulls?q=is%3Apr+assignee%3Awchen-r7+is%3Aclosed), but it does not include records
 from the SVN days.
 
