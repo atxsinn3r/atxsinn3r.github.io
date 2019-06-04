@@ -11,15 +11,12 @@ I also love animals, and I have a soft spot for dogs and cats!
 
 There are a number of ways to find me:
 
-* Twitter as @_sinn3r
-
-
-** Find me on Twitter**
+**Twitter**
 
 [@_sinn3r](https://twitter.com/_sinn3r)
 
 
-**My Github accounts**
+**Github**
 
 * [wchen-r7](https://github.com/wchen-r7)
 * [atxsinn3r](https://github.com/atxsinn3r)
