@@ -16,4 +16,4 @@ I also love animals, and I have a soft spot for dogs and cats!
 * [Writeups](./writeups.md)
 * [Repositories](./repos.md)
 * [Contact Me](./contact.md)
-* [License](./license.md)
+* [License](./site_license.md)
