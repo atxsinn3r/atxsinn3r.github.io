@@ -13,7 +13,7 @@ There are a number of ways to find me:
 
 **Twitter**
 
-[@_sinn3r](https://twitter.com/_sinn3r)
+* [@_sinn3r](https://twitter.com/_sinn3r)
 
 
 **Github**
