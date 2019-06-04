@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 logo: /images/sinn3r.jpg
 title: atxsinn3r.io
+github:
+  is_project_page: false
