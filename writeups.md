@@ -37,5 +37,15 @@
 
 ### Papers
 
+* ??? ?? 2019 - Heap Overflow Exploitation on Windows 10 Explained
+* Mar 26 2019 - [Q1 2019 Dev Diaries (MailCleaner, Apache Spari, Jira)](https://www.rapid7.com/research/report/metasploit-development-diaries-q1-2019/)
+* Feb 28 2019 - Unsafe DLL Hijacking for Internal Training
+* Feb 21 2019 - Format Sring Attacks for Internal Training
 * Oct 09 2018 - [Encapsulating Antivirus Evasion Techniques in Metasploit Framework](https://www.rapid7.com/globalassets/_pdfs/whitepaperguide/rapid7-whitepaper-metasploit-framework-encapsulating-av-techniques.pdf)
+* Sep 18 2018 - Use-After-Free Vulnerability for Internal Training
+* Jan 03 2018 - Rails Deserialization Code Execution
+* Dec 14 2015 - ManageEngine FileUploadServlet Vulnerability
+* Nov 30 2015 - Oracle Beehive Prepareaudiotoplay Vulnerability
+* Oct 26 2013 - Practical Browser Exploit Development with Metasploit
+* Oct 26 2013 - Synchronized Multimedia Integration Language (SMIL) for Heap Control
 * Oct 20 2010 - In Memory Fuzzing - Real time Input Tracing and In Memory Fuzzing
