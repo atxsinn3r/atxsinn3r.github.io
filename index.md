@@ -22,7 +22,7 @@ I also love animals, and I have a soft spot for dogs and cats!
 The content of this website is under the BSD 3-Clause License.
 
 ```
-Copyright (c) 2019, sinn3r
+Copyright (c) 2019, atxsinn3r
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
