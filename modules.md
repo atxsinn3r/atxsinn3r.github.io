@@ -35,40 +35,40 @@ May 17 2016
 [Dell SonicWALL Scrutinizer 11.01 methodDetail SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_scrutinizer_methoddetail_sqli.rb)
 
 Dec 14 2015  
-ManageEngine Desktop Central 9 FileUploadServlet ConnectionId
+[ManageEngine Desktop Central 9 FileUploadServlet ConnectionId Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/manageengine_connectionid_write.rb)
 
 Dec 04 2015  
-Atlassian HipChat for Jira Plugin Velocity Template Injection
+[Atlassian HipChat for Jira Plugin Velocity Template Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/jira_hipchat_template.rb)
 
 Dec 03 2015  
-Oracle BeeHive 2 voice-servlet processEvaluation() Vulnerability
+[Oracle BeeHive 2 voice-servlet processEvaluation() Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oracle_beehive_prepareaudiotoplay.rb)
 
 Dec 03 2015  
-Oracle BeeHive 2 voice-servlet prepareAudioToPlay() Arbitrary File Upload
+[Oracle BeeHive 2 voice-servlet prepareAudioToPlay() Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oracle_beehive_prepareaudiotoplay.rb)
 
 Sep 15 2015  
-MS15-100 Microsoft Windows Media Center MCL Code Execution
+[MS15-100 Microsoft Windows Media Center MCL Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/ms15_134_mcl_leak.rb)
 
 Jul 13 2015  
-Adobe Flash opaqueBackground Use After Free
+[Adobe Flash opaqueBackground Use After Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_opaque_background_uaf.rb)
 
 Jul 08 2015  
-Adobe Flash Player ByteArray Use After Free
+[Adobe Flash Player ByteArray Use After Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/adobe_flash_hacking_team_uaf.rb)
 
 Apr 06 2015  
-Solarwinds Firewall Security Manager 6.6.5 Client Session Handling
+[Solarwinds Firewall Security Manager 6.6.5 Client Session Handling](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/solarwinds_fsm_userlogin.rb)
 
 Mar 18 2015  
-Adobe Flash Player PCRE Regex Logic Error
+[Adobe Flash Player PCRE Regex Logic Error](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_flash_pcre.rb)
 
 Mar 03 2015  
-Symantec Web Gateway 5 restore.php Command Injection
+[Symantec Web Gateway 5 restore.php Command Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/symantec_web_gateway_restore.rb)
 
 Jan 15 2015  
-Microsoft Windows NtApphelpCacheControl Improper Authorization Check
+[Microsoft Windows NtApphelpCacheControl Improper Authorization Check](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ntapphelpcachecontrol.rb)
 
 Jan 12 2015  
-Oracle MySQL for Microsoft Windows FILE Privilege Abuse
+[Oracle MySQL for Microsoft Windows FILE Privilege Abuse](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/mysql/mysql_start_up.rb)
 
 Nov 14 2014  
 MS14-064 Microsoft Windows OLE Package Manager Code Execution Through Python
