@@ -89,25 +89,25 @@ Nov 27 2013
 [Microsoft Tagged Image File Format (TIFF) Integer Overflow](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/mswin_tiff_overflow.rb)
 
 Nov 08 2013  
-VICIdial Manager Send OS Command Injection
+[VICIdial Manager Send OS Command Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/vicidial_manager_send_cmd_exec.rb)
 
 Oct 14 2013  
-MS13-080 Microsoft Internet Explorer CDisplayPointer Use-After-Free
+[MS13-080 Microsoft Internet Explorer CDisplayPointer Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms13_080_cdisplaypointer.rb)
 
 Sep 30 2013  
-Microsoft Internet Explorer SetMouseCapture Use-After-Free
+[Microsoft Internet Explorer SetMouseCapture Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ie_setmousecapture_uaf.rb)
 
 Sep 20 2013  
-MS13-069 Microsoft Internet Explorer CCaret Use-After-Free
+[MS13-069 Microsoft Internet Explorer CCaret Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms13_069_caret.rb)
 
 Sep 09 2013  
-MS13-055 Microsoft Internet Explorer CAnchorElement Use-After-Free
+[MS13-055 Microsoft Internet Explorer CAnchorElement Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms13_055_canchor.rb)
 
 Sep 04 2013  
-MS13-059 Microsoft Internet Explorer CFlatMarkupPointer Use-After-Free
+[MS13-059 Microsoft Internet Explorer CFlatMarkupPointer Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms13_059_cflatmarkuppointer.rb)
 
 Aug 16 2013  
-Java storeImageArray() Invalid Array Indexing
+[Java storeImageArray() Invalid Array Indexing](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/java_storeimagearray.rb)
 
 Aug 08 2013  
 Firefox onreadystatechange Event DocumentViewerImpl Use After Free
