@@ -2,7 +2,7 @@
 
 Most of my modules have gone to the Metasploit repository. There is really a lot of them, from exploits, auxiliary, post modules, evasion, tools, etc. It'd take a long time to compile all that into a list. For now, here is a list of exploits I've done. The rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
 
-I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
+Most came out as N-days. I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
 May 24 2019  
 [Oracle Application Testing Suite WebLogic Server Administration Console War Deployment](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oats_weblogic_console.rb)
@@ -206,31 +206,31 @@ Oct 12 2012
 [Project Pier Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/projectpier_upload_exec.rb)
 
 Oct 08 2012  
-PhpTax pfilez Parameter Exec Remote Code Injection
+[PhpTax pfilez Parameter Exec Remote Code Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/phptax_exec.rb)
 
 Sep 28 2012  
-Samba SetInformationPolicy AuditEventsInfo Heap Overflow
+[Samba SetInformationPolicy AuditEventsInfo Heap Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/samba/setinfopolicy_heap.rb)
 
 Sep 25 2012  
-Auxilium RateMyPet Arbitrary File Upload
+[Auxilium RateMyPet Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/auxilium_upload_exec.rb)
 
 Sep 17 2012  
-Microsoft Internet Explorer execCommand Use-After-Free
+[Microsoft Internet Explorer execCommand Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/ie_execcommand_uaf.rb)
 
 Sep 15 2012  
-Oracle BTM FlashTunnelService Remote Code Execution
+[Oracle BTM FlashTunnelService Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oracle_btm_writetofile.rb)
 
 Sep 14 2012  
-qdPM 7 Arbitrary PHP File Upload
+[qdPM 7 Arbitrary PHP File Upload](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/qdpm_upload_exec.rb)
 
 Sep 07 2012  
-Sflog! CMS 1.0 Arbitrary File Upload
+[Sflog! CMS 1.0 Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sflog_upload_exec.rb)
 
 Sep 06 2012  
-Symantec Messaging Gateway 9.5 Default SSH Password
+[Symantec Messaging Gateway 9.5 Default SSH Password](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/ssh/symantec_smg_ssh.rb)
 
 Sep 05 2012  
-MobileCartly 1.0 Arbitrary File Creation
+[MobileCartly 1.0 Arbitrary File Creation](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/mobilecartly_upload_exec.rb)
 
 Aug 28 2012  
 Java 7 Applet Remote Code Execution
