@@ -71,22 +71,22 @@ Jan 12 2015
 [Oracle MySQL for Microsoft Windows FILE Privilege Abuse](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/mysql/mysql_start_up.rb)
 
 Nov 14 2014  
-MS14-064 Microsoft Windows OLE Package Manager Code Execution Through Python
+[MS14-064 Microsoft Windows OLE Package Manager Code Execution Through Python](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_064_packager_python.rb)
 
 Nov 13 2014  
-MS14-064 Microsoft Windows OLE Package Manager Code Execution
+[MS14-064 Microsoft Windows OLE Package Manager Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_064_packager_run_as_admin.rb)
 
 Oct 18 2014  
-MS14-060 Microsoft Windows OLE Package Manager Code Execution
+[MS14-060 Microsoft Windows OLE Package Manager Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/ms14_060_sandworm.rb)
 
 Mar 20 2014  
-MS14-012 Internet Explorer TextRange Use-After-Free
+[MS14-012 Internet Explorer TextRange Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms14_012_textrange.rb)
 
 Dec 17 2013  
-Adobe Reader ToolButton Use After Free
+[Adobe Reader ToolButton Use After Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/adobe_toolbutton.rb)
 
 Nov 27 2013  
-Microsoft Tagged Image File Format (TIFF) Integer Overflow
+[Microsoft Tagged Image File Format (TIFF) Integer Overflow](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/mswin_tiff_overflow.rb)
 
 Nov 08 2013  
 VICIdial Manager Send OS Command Injection
