@@ -1,38 +1,38 @@
 ## Modules
 
-Most of my modules have gone to the Metasploit repository. There is really a lot of them, from exploits, auxiliary, post modules, evasion, tools, etc. It'd take a long time to compile all that into a list. For now, here is a list of exploits I've written. The rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
+Most of my modules have gone to the Metasploit repository. There is really a lot of them, from exploits, auxiliary, post modules, evasion, tools, etc. It'd take a long time to compile all that into a list. For now, here is a list of exploits I've done. The rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
 
 I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
 May 24 2019  
-Oracle Application Testing Suite WebLogic Server Administration Console War Deployment
+[Oracle Application Testing Suite WebLogic Server Administration Console War Deployment](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oats_weblogic_console.rb)
 
 May 01 2019  
-Ruby On Rails DoubleTap Development Mode secret_key_base Remote Code Execution
+[Ruby On Rails DoubleTap Development Mode secret_key_base Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/rails_double_tap.rb)
 
 Jan 05 2018  
-Ayukov NFTP FTP Client Buffer Overflow
+[Ayukov NFTP FTP Client Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/ftp/ayukov_nftp.rb)
 
 Aug 02 2017  
-Nitro Pro PDF Reader 11.0.3.173 Remote Code Execution
+[Nitro Pro PDF Reader 11.0.3.173 Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/nitro_reader_jsapi.rb)
 
 Apr 24 2017  
-Microsoft Office Word Malicious Hta Execution
+[Microsoft Office Word Malicious Hta Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/office_word_hta.rb)
 
 Mar 27 2017  
-Github Enterprise Default Session Secret And Deserialization
+[Github Enterprise Default Session Secret And Deserialization](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/github_enterprise_secret.rb)
 
 Feb 10 2017  
-Apache OpenOffice Text Document Malicious Macro Execution
+[Apache OpenOffice Text Document Malicious Macro Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/openoffice_document_macro.rb)
 
 Feb 08 2017  
-Microsoft Office Word Malicious Macro Execution
+[Microsoft Office Word Malicious Macro Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/fileformat/office_word_macro.rb)
 
 Jan 12 2017  
-Cisco Firepower Management Console 6.0 Post Authentication UserAdd
+[Cisco Firepower Management Console 6.0 Post Authentication UserAdd](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/cisco_firepower_useradd.rb)
 
 May 17 2016  
-Dell SonicWALL Scrutinizer 11.01 methodDetail SQL Injection
+[Dell SonicWALL Scrutinizer 11.01 methodDetail SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/sonicwall_scrutinizer_methoddetail_sqli.rb)
 
 Dec 14 2015  
 ManageEngine Desktop Central 9 FileUploadServlet ConnectionId
