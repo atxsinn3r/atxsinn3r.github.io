@@ -5,12 +5,12 @@
 | Date  | Title  |
 | ----- | ------ |
 | May 03 2018 | [Hiding Metasploit Shellcode to Evade Windows Defender](https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/) |
-| Mar 08 2017 | [Attacking Microsoft Office | OpenOffice with Metasploit Macro Exploits](https://blog.rapid7.com/2017/03/08/attacking-microsoft-office-openoffice-with-metasploit-macro-exploits/) |
+| Mar 08 2017 | [Attacking Microsoft Office OpenOffice with Metasploit Macro Exploits](https://blog.rapid7.com/2017/03/08/attacking-microsoft-office-openoffice-with-metasploit-macro-exploits/) |
 | Jan 09 2017 | [Breaking Metasploitable3: The King of Clubs](https://blog.rapid7.com/2017/01/09/breaking-metasploitable3-the-king-of-clubs/) |
 | Nov 15 2016 | [Metasploitable3: An Intentionally Vulnerable Machine for Exploit Testing](https://blog.rapid7.com/2016/11/15/test-your-might-with-the-shiny-new-metasploitable3/) |
 | Oct 08 2015 | [New Metasploit Tools to Collect Microsoft Patches](https://blog.rapid7.com/2015/10/08/new-metasploit-tools-to-collect-microsoft-patches/) |
-| Jul 16 2015 | [The New Metasploit Browser Autopwn: Strikes Faster and Smarter | Part 2](https://blog.rapid7.com/2015/07/16/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-2/) |
-| Jul 15 2015 | [The New Metasploit Browser Autopwn: Strikes Faster and Smarter | Part 1](https://blog.rapid7.com/2015/07/15/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-1/) |
+| Jul 16 2015 | [The New Metasploit Browser Autopwn: Strikes Faster and Smarter Part 2](https://blog.rapid7.com/2015/07/16/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-2/) |
+| Jul 15 2015 | [The New Metasploit Browser Autopwn: Strikes Faster and Smarter Part 1](https://blog.rapid7.com/2015/07/15/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-1/) |
 | Mar 25 2015 | [Using Host Tagging in Metasploit for Penetration Testing](https://blog.rapid7.com/2015/03/25/using-host-tagging-in-metasploit-for-penetration-testing/) |
 | Dec 26 2014 | [12 Days of HaXmas: Opening Up My Top Secret Metasploit Time Capsule](https://blog.rapid7.com/2014/12/26/12-days-of-haxmas-opening-up-my-top-secret-metasploit-time-capsule/) |
 | Apr 07 2014 | [Hack Away at the Unessential with ExpLib2 in Metasploit](https://blog.rapid7.com/2014/04/07/hack-away-at-the-unessential-with-explib2-in-metasploit/) |
@@ -34,7 +34,7 @@
 | Aug 17 2012 | [Adobe Flash Player Exploit CVE-2012-1535 New Available For Metasploit](https://blog.rapid7.com/2012/08/17/adobe-flash-player-exploit-cve-2012-1535-now-available-for-metasploit/) |
 | Jul 06 2012 | [Stack Smashing: When Code Execution Becomes a Nightmare](https://blog.rapid7.com/2012/07/06/stack-smashing-when-code-execution-becomes-a-nightmare/) |
 | Jun 18 2012 | [New Critical Microsoft IE Zero-Day Exploits in Metasploit](https://blog.rapid7.com/2012/06/18/metasploit-exploits-critical-microsoft-vulnerabilities/) |
-| Mar 29 2012 | [CVE-2012-0507 | Java Strikes Again](https://blog.rapid7.com/2012/03/29/cve-2012-0507-java-strikes-again/) |
+| Mar 29 2012 | [CVE-2012-0507 Java Strikes Again](https://blog.rapid7.com/2012/03/29/cve-2012-0507-java-strikes-again/) |
 
 
 ### Papers
@@ -52,5 +52,5 @@
 | Nov 30 2015 | [Oracle Beehive PrepareAudioToPlay Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/oracle_beehive_prepareaudiotoplay.pdf) |
 | Oct 26 2013 | [Practical Browser Exploit Development with Metasploit](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/practical_browser_exploit_dev_with_msf.pdf) |
 | Oct 26 2013 | [Synchronized Multimedia Integration Language (SMIL) for Heap Control](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/smil_heap_control.txt) |
-| Oct 20 2010 | [In Memory Fuzzing | Real time Input Tracing and In Memory Fuzzing](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/in_memory_fuzzing.pdf) |
+| Oct 20 2010 | [In Memory Fuzzing : Real time Input Tracing and In Memory Fuzzing](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/in_memory_fuzzing.pdf) |
 | Jun 06 2010 | [How Strong is Your Fu 2 Offensive Security CTF Report](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/hsiyf2.pdf) |
