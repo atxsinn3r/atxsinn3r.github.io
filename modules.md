@@ -110,79 +110,76 @@ Aug 16 2013
 [Java storeImageArray() Invalid Array Indexing](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/java_storeimagearray.rb)
 
 Aug 08 2013  
-Firefox onreadystatechange Event DocumentViewerImpl Use After Free
+[Firefox onreadystatechange Event DocumentViewerImpl Use After Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/mozilla_firefox_onreadystatechange.rb)
 
 Jul 25 2013  
-Apache Struts 2 DefaultActionMapper Prefixes OGNL Code Execution
+[Apache Struts 2 DefaultActionMapper Prefixes OGNL Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/struts_default_action_mapper.rb)
 
 Jul 18 2013  
-Apple Quicktime 7 Invalid Atom Length Buffer Overflow
+[Apple Quicktime 7 Invalid Atom Length Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/apple_quicktime_rdrf.rb)
 
 Jul 01 2013  
-Windows EPATHOBJ::pprFlattenRec Local Privilege Escalation
+[Windows EPATHOBJ::pprFlattenRec Local Privilege Escalation](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/ppr_flatten_rec.rb)
 
 Jun 26 2013  
-ZPanel zsudo Local Privilege Escalation
+[ZPanel zsudo Local Privilege Escalation](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/local/zpanel_zsudo.rb)
 
 Jun 26 2013  
-FreeBSD 9 Address Space Manipulation Privilege Escalation
+[FreeBSD 9 Address Space Manipulation Privilege Escalation](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/freebsd/local/mmap.rb)
 
 Jun 23 2013  
-ZPanel 10.0.0.2 htpasswd Module Username Command Execution
+[ZPanel 10.0.0.2 htpasswd Module Username Command Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/zpanel_username_exec.rb)
 
 Jun 22 2013  
-HP System Management Homepage JustGetSNMPQueue Command Injection
+[HP System Management Homepage JustGetSNMPQueue Command Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/hp_sys_mgmt_exec.rb)
 
 Jun 22 2013  
-LibrettoCMS File Manager Arbitrary File Upload
+[LibrettoCMS File Manager Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/webapp/libretto_upload_exec.rb)
 
 Jun 20 2013  
-Havalite CMS Arbitary File Upload
+[Havalite CMS Arbitary File Upload](https://www.rapid7.com/db/modules/exploit/unix/webapp/havalite_upload_exec)
 
 Jun 10 2013  
-Synactis PDF In-The-Box ConnectToSynactic Stack Buffer Overflow
+[Synactis PDF In-The-Box ConnectToSynactic Stack Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/synactis_connecttosynactis_bof.rb)
 
 May 07 2013  
-Microsoft Internet Explorer CGenericElement Object Use-After-Free
-
-Jan 24 2013  
-Windows Manage Memory Payload Injection
+[Microsoft Internet Explorer CGenericElement Object Use-After-Free](https://www.rapid7.com/db/modules/exploit/windows/browser/ie_cgenericelement_uaf)
 
 Jan 11 2013  
-Java Applet JMX Remote Code Execution
+[Java Applet JMX Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/browser/java_jre17_jmxbean.rb)
 
 Jan 01 2013  
-Microsoft Internet Explorer Option Element Use-After-Free
+[Microsoft Internet Explorer Option Element Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ms11_081_option.rb)
 
 Jan 02 2013  
-Microsoft Internet Explorer CButton Object Use-After-Free
+[Microsoft Internet Explorer CButton Object Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/browser/ie_cbutton_uaf.rb)
 
 Dec 31 2012  
-Microsoft Internet Explorer CDwnBindInfo Object Use-After-Free
+[Microsoft Internet Explorer CDwnBindInfo Object Use-After-Free](https://www.exploit-db.com/exploits/23754)
 
 Dec 24 2012  
-Netwin SurgeFTP Remote Command Execution
+[Netwin SurgeFTP Remote Command Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/netwin_surgeftp_exec.rb)
 
 Dec 09 2012  
-Nagios XI Network Monitor Graph Explorer Component Command Injection
+[Nagios XI Network Monitor Graph Explorer Component Command Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/nagios_graph_explorer.rb)
 
 Dec 08 2012  
-FreeFloat FTP Server Arbitrary File Upload
+[FreeFloat FTP Server Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/ftp/freefloatftp_wbem.rb)
 
 Dec 08 2012  
-Maxthon3 about:history XCS Trusted Zone Code Execution
+[Maxthon3 about:history XCS Trusted Zone Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/maxthon_history_xcs.rb)
 
 Dec 08 2012  
-Splunk 5.0 Custom App Remote Code Execution
+[Splunk 5.0 Custom App Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/splunk_upload_app_exec.rb)
 
 Dec 07 2012  
-Oracle MySQL For Microsoft Windows MOF Execution
+[Oracle MySQL For Microsoft Windows MOF Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/mysql/mysql_mof.rb)
 
 Dec 05 2012  
-Tectia SSH USERAUTH Change Request Password Reset
+[Tectia SSH USERAUTH Change Request Password Reset](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/ssh/tectia_passwd_changereq.rb)
 
 Nov 30 2012  
-BlazeVideo HDTV Player Pro 6.6 Filename Handling
+[BlazeVideo HDTV Player Pro 6.6 Filename Handling](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/blazedvd_hdtv_bof.rb)
 
 Nov 29 2012  
 Network Shutdown Module 3.21 Remote PHP Code Injection
@@ -390,6 +387,9 @@ Oracle Job Scheduler Named Pipe Command Execution
 
 Dec 13 2011  
 CoDeSys SCADA 2.3 Webserver Stack Buffer Overflow
+
+Oct 12 2011
+[Windows Manage Memory Payload Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/payload_inject.rb)
 
 Nov 30 2011  
 Java Applet Rhino Script Engine Remote Code Execution
