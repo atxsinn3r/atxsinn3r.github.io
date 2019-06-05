@@ -182,28 +182,28 @@ Nov 30 2012
 [BlazeVideo HDTV Player Pro 6.6 Filename Handling](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/blazedvd_hdtv_bof.rb)
 
 Nov 29 2012  
-Network Shutdown Module 3.21 Remote PHP Code Injection
+[Network Shutdown Module 3.21 Remote PHP Code Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/eaton_nsm_code_exec.rb)
 
 Nov 21 2012  
-Narcissus Image Configuration Passthru
+[Narcissus Image Configuration Passthru](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/narcissus_backend_exec.rb)
 
 Nov 13 2012  
-Invision IP.Board 3.3.4 unserialize() PHP Code Execution
+[Invision IP.Board 3.3.4 unserialize() PHP Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/invision_pboard_unserialize_exec.rb)
 
 Nov 02 2012  
-HP Intelligent Management Center UAM Buffer Overflow
+[HP Intelligent Management Center UAM Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/misc/hp_imc_uam.rb)
 
 Nov 01 2012  
-Aladdin Knowledge System Ltd ChooseFilePath Buffer Overflow
+[Aladdin Knowledge System Ltd ChooseFilePath Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/aladdin_choosefilepath_bof.rb)
 
 Oct 28 2012  
-ManageEngine Security Manager Plus 5.5 build 5505 SQL Injection
+[ManageEngine Security Manager Plus 5.5 build 5505 SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/manageengine_search_sqli.rb)
 
 Oct 15 2012  
-AjaXplorer checkInstall.php Remote Command Execution
+[AjaXplorer checkInstall.php Remote Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/ajaxplorer_checkinstall_exec.rb)
 
 Oct 12 2012  
-Project Pier Arbitrary File Upload
+[Project Pier Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/projectpier_upload_exec.rb)
 
 Oct 08 2012  
 PhpTax pfilez Parameter Exec Remote Code Injection
