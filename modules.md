@@ -1,8 +1,8 @@
 ## Modules
 
-Most of my modules have gone to the Metasploit repository. There is really a lot of them, from exploits, auxiliary, post modules, evasion, tools, etc. It'd take a long time to compile all that into a list. For now, here is a list of exploits I've done. The rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
+Most of my modules started off as N-days, and went to the Metasploit repository. I've written a lot of modules, from exploits, post, evasion, tools, etc, so it'd take a long time to compile all into a list. Here are the ones with arbitrary code execution, the rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
 
-Most came out as N-days. I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
+I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
 May 24 2019  
 [Oracle Application Testing Suite WebLogic Server Administration Console War Deployment](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oats_weblogic_console.rb)
@@ -233,157 +233,157 @@ Sep 05 2012
 [MobileCartly 1.0 Arbitrary File Creation](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/mobilecartly_upload_exec.rb)
 
 Aug 28 2012  
-Java 7 Applet Remote Code Execution
+[Java 7 Applet Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/browser/java_jre17_exec.rb)
 
 Aug 17 2012  
-Adobe Flash Player 11.3 Font Parsing Code Execution
+[Adobe Flash Player 11.3 Font Parsing Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/adobe_flash_otf_font.rb)
 
 Aug 15 2012  
-Windows Service Trusted Path Privilege Escalation
+[Windows Service Trusted Path Privilege Escalation](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/local/trusted_service_path.rb)
 
 Aug 14 2012  
-Cyclope Employee Surveillance Solution 6 SQL Injection
+[Cyclope Employee Surveillance Solution 6 SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/cyclope_ess_sqli.rb)
 
 Aug 08 2012  
-Plixer Scrutinizer NetFlow and sFlow Analyzer 9 Default MySQL Credential
+[Plixer Scrutinizer NetFlow and sFlow Analyzer 9 Default MySQL Credential](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/mysql/scrutinizer_upload_exec.rb)
 
 Aug 03 2012  
-Dell SonicWALL Scrutinizer 9 SQL Injection
+[Dell SonicWALL Scrutinizer 9 SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/sonicwall_scrutinizer_sqli.rb)
 
 Aug 01 2012  
-WebPageTest Arbitrary PHP File Upload
+[WebPageTest Arbitrary PHP File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/webpagetest_upload_exec.rb)
 
 Jul 27 2012  
-Symantec Web Gateway 5.0.2.18 pbcontrol.php Command Injection
+[Symantec Web Gateway 5.0.2.18 pbcontrol.php Command Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/http/symantec_web_gateway_pbcontrol.rb)
 
 Jul 10 2012  
-Java Applet Field Bytecode Verifier Cache Remote Code Execution
+[Java Applet Field Bytecode Verifier Cache Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/browser/java_verifier_field_access.rb)
 
 Jul 06 2012  
-Basilic 1.5.14 diff.php Arbitrary Command Execution
+[Basilic 1.5.14 diff.php Arbitrary Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/basilic_diff_exec.rb)
 
 Jul 02 2012  
-HP Data Protector Create New Folder Buffer Overflow
+[HP Data Protector Create New Folder Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/misc/hp_dataprotector_new_folder.rb)
 
 Jun 29 2012  
-Apple QuickTime TeXML Stack Buffer Overflow
+[Apple QuickTime TeXML Stack Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/apple_quicktime_texml.rb)
 
 Jun 27 2012  
-SugarCRM 6.3.1 unserialize() PHP Code Execution
+[SugarCRM 6.3.1 unserialize() PHP Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/unix/webapp/sugarcrm_unserialize_exec.rb)
 
 Jun 23 2012  
-Adobe Flash Player Object Type Confusion
+[Adobe Flash Player Object Type Confusion](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/adobe_flash_rtmp.rb)
 
 Jun 16 2012  
-Microsoft XML Core Services MSXML Uninitialized Memory Corruption
+[Microsoft XML Core Services MSXML Uninitialized Memory Corruption](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/msxml_get_definition_code_exec.rb)
 
 Jun 14 2012  
-Lattice Semiconductor PAC-Designer 6.21 Symbol Value Buffer Overflow
+[Lattice Semiconductor PAC-Designer 6.21 Symbol Value Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/lattice_pac_bof.rb)
 
 Jun 11 2012  
-MS12-005 Microsoft Office ClickOnce Unsafe Object Package Handling Vulnerability
+[MS12-005 Microsoft Office ClickOnce Unsafe Object Package Handling Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/ms12_005.rb)
 
 Jun 05 2012  
-Apache Struts 2.2.1.1 Remote Command Execution
+[Apache Struts 2.2.1.1 Remote Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/struts_code_exec_exception_delegator.rb)
 
 Jun 03 2012  
-Log1 CMS writeInfo() PHP Code Injection
+[Log1 CMS writeInfo() PHP Code Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/log1cms_ajax_create_folder.rb)
 
 May 31 2012  
-PHP Volunteer Management System v1.0.2 Arbitrary File Upload
+[PHP Volunteer Management System v1.0.2 Arbitrary File Upload](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/php_volunteer_upload_exec.rb)
 
 Mar 28 2012  
-Symantec Web Gateway 5.0.2.8 Command Execution
+[Symantec Web Gateway 5.0.2.8 Command Execution](https://www.exploit-db.com/exploits/18942)
 
 May 27 2012  
-QuickShare File Share 1.2.1 Directory Traversal
+[QuickShare File Share 1.2.1 Directory Traversal](https://www.exploit-db.com/exploits/18933)
 
 May 25 2012  
-RabidHamster R4 Log Entry sprintf() Buffer Overflow
+[RabidHamster R4 Log Entry sprintf() Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/rabidhamster_r4_log.rb)
 
 May 24 2012  
-appRain CMF Arbitrary PHP File Upload Vulnerability
+[appRain CMF Arbitrary PHP File Upload Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/apprain_upload_exec.rb)
 
 May 22 2012  
-FlexNet License Server Manager lmgrd Buffer Overflow
+[FlexNet License Server Manager lmgrd Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/license/flexnet_lmgrd_bof.rb)
 
 May 22 2012  
-HP StorageWorks P4000 Virtual SAN Appliance Command Execution
+[HP StorageWorks P4000 Virtual SAN Appliance Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/misc/hp_vsa_exec.rb)
 
 May 18 2012  
-Squiggle 1.7 SVG Browser Java Code Execution
+[Squiggle 1.7 SVG Browser Java Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/misc/batik_svg_java.rb)
 
 May 11 2012  
-Distinct TFTP 3.01 Writable Directory Traversal Execution
+[Distinct TFTP 3.01 Writable Directory Traversal Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/tftp/distinct_tftp_traversal.rb)
 
 May 11 2012  
-WikkaWiki 1.3.2 Spam Logging PHP Injection
+[WikkaWiki 1.3.2 Spam Logging PHP Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/wikka_spam_exec.rb)
 
 Mar 06 2012  
-Solarwinds Storage Manager 5.1.0 SQL Injection
+[Solarwinds Storage Manager 5.1.0 SQL Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/solarwinds_storage_manager_sql.rb)
 
 May 03 2012  
-McAfee Virtual Technician MVTControl 6.3.0.1911 GetObject Vulnerability
+[McAfee Virtual Technician MVTControl 6.3.0.1911 GetObject Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/mcafee_mvt_exec.rb)
 
 May 03 2012  
-VLC MMS Stream Handling Buffer Overflow
+[VLC MMS Stream Handling Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/vlc_mms_bof.rb)
 
 Apr 30 2012  
-WebCalendar 1.2.4 Pre-Auth Remote Code Injection
+[WebCalendar 1.2.4 Pre-Auth Remote Code Injection](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/http/webcalendar_settings_exec.rb)
 
 Apr 25 2012  
-MS12-027 MSCOMCTL ActiveX Buffer Overflow
+[MS12-027 MSCOMCTL ActiveX Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/ms12_027_mscomctl_bof.rb)
 
 Apr 17 2012  
-V-CMS PHP File Upload And Execute
+[V-CMS PHP File Upload And Execute](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/linux/http/vcms_upload.rb)
 
 Apr 10 2012  
-IBM Tivoli Provisioning Manager Express Overflow
+[IBM Tivoli Provisioning Manager Express Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/ibm_tivoli_pme_activex_bof.rb)
 
 Apr 07 2012  
-TRENDnet SecurView Internet Camera UltraMJCam OpenFileDlg Buffer Overflow
+[TRENDnet SecurView Internet Camera UltraMJCam OpenFileDlg Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/ultramjcam_openfiledig_bof.rb)
 
 Mar 30 2012  
-Java AtomicReferenceArray Type Violation
+[Java AtomicReferenceArray Type Violation](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/browser/java_atomicreferencearray.rb)
 
 Mar 26 2012  
-Ricoh DC DL-10 SR10 FTP USER Command Buffer Overflow
+[Ricoh DC DL-10 SR10 FTP USER Command Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/ftp/ricoh_dl_bof.rb)
 
 Mar 22 2012  
-Dell Webcam CrazyTalk ActiveX BackImage Vulnerability
+[Dell Webcam CrazyTalk ActiveX BackImage Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/dell_webcam_crazytalk.rb)
 
 Mar 22 2012  
-MS10-002 Internet Explorer Object Memory Use-After-Free
+[MS10-002 Internet Explorer Object Memory Use-After-Free](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/ms10_002_ie_object.rb)
 
 Mar 15 2012  
-NetDecision 4.5.1 HTTP Server Buffer Overflow
+[NetDecision 4.5.1 HTTP Server Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/netdecision_http_bof.rb)
 
 Mar 08 2012  
-Adobe Flash Player .mp4 'cprt' Overflow
+[Adobe Flash Player .mp4 'cprt' Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/adobe_flash_mp4_cprt.rb)
 
 Mar 05 2012  
-Sysax 5.53 SSH Username Buffer Overflow
+[Sysax 5.53 SSH Username Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/ssh/sysax_ssh_username.rb)
 
 Feb 29 2012  
-ASUS Net4Switch ipswcom.dll ActiveX Stack Buffer Overflow
+[ASUS Net4Switch ipswcom.dll ActiveX Stack Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/asus_net4switch_ipswcom.rb)
 
 Feb 10 2012  
-Adobe Flash Player MP4 SequenceParameterSetNALUnit Buffer Overflow
+[Adobe Flash Player MP4 SequenceParameterSetNALUnit Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/adobe_flash_sps.rb)
 
 Jan 28 2012  
-MS12-004 midiOutPlayNextPolyEvent Heap Overflow
+[MS12-004 midiOutPlayNextPolyEvent Heap Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/ms12_004_midi.rb)
 
 Jan 20 2012  
-HP OpenView Network Node Manager ov.dll OVBuildPath Buffer Overflow
+[HP OpenView Network Node Manager ov.dll OVBuildPath Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_nnm_ovbuildpath_textfile.rb)
 
 Jan 18 2012  
-McAfee SaaS MyCioScan ShowReport Remote Command Execution
+[McAfee SaaS MyCioScan ShowReport Remote Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/mcafee_showreport_exec.rb)
 
 Jan 04 2012  
-Adobe Reader U3D Memory Corruption
+[Adobe Reader U3D Memory Corruption](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/adobe_reader_u3d.rb)
 
 Dec 23 2011  
-Oracle Job Scheduler Named Pipe Command Execution
+[Oracle Job Scheduler Named Pipe Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/oracle/extjob.rb)
 
 Dec 13 2011  
 CoDeSys SCADA 2.3 Webserver Stack Buffer Overflow
@@ -392,115 +392,115 @@ Oct 12 2011
 [Windows Manage Memory Payload Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/payload_inject.rb)
 
 Nov 30 2011  
-Java Applet Rhino Script Engine Remote Code Execution
+[Java Applet Rhino Script Engine Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/browser/java_rhino.rb)
 
 Nov 20 2011  
-Wireshark 1.6 console.lua Pre-Load / Execution
+[Wireshark 1.6 console.lua Pre-Load / Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/misc/wireshark_lua.rb)
 
 Nov 13 2011  
-Aviosoft Digital TV Player Professional 1.0 Buffer Overflow
+[Aviosoft Digital TV Player Professional 1.0 Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/aviosoft_plf_buf.rb)
 
 Nov 06 2011  
-MS11-021 Microsoft Office 2007 Excel .xlb Buffer Overflow
+[MS11-021 Microsoft Office 2007 Excel .xlb Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/ms11_021_xlb_bof.rb)
 
 Oct 20 2011  
-HP Power Manager 'formExportDataLogs' Buffer Overflow
+[HP Power Manager 'formExportDataLogs' Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_power_manager_filename.rb)
 
 Oct 17 2011  
-Apple Safari file:// Arbitrary Code Execution
+[Apple Safari file:// Arbitrary Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/osx/browser/safari_file_policy.rb)
 
 Oct 14 2011  
-Mozilla Firefox Array.reduceRight() Integer Overflow
+[Mozilla Firefox Array.reduceRight() Integer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/mozilla_reduceright.rb)
 
 Sep 02 2011  
-DVD X Player 5.5 .plf PlayList Buffer Overflow
+[DVD X Player 5.5 .plf PlayList Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/dvdx_plf_bof.rb)
 
 Aug 31 2011  
-Citrix Gateway ActiveX Control Stack Based Buffer Overflow
+[Citrix Gateway ActiveX Control Stack Based Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/citrix_gateway_actx.rb)
 
 Aug 13 2011  
-TeeChart Professional ActiveX Control 2010.0.0.3 Trusted Integer Dereference
+[TeeChart Professional ActiveX Control 2010.0.0.3 Trusted Integer Dereference](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/teechart_pro.rb)
 
 Aug 04 2011  
-Sun/Oracle GlassFish Server Authenticated Code Execution
+[Sun/Oracle GlassFish Server Authenticated Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/multi/http/glassfish_deployer.rb)
 
 Jul 06 2011  
-HP OpenView Network Node Manager Toolbar.exe CGI Cookie Handling Buffer Overflow
+[HP OpenView Network Node Manager Toolbar.exe CGI Cookie Handling Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_nnm_toolbar_02.rb)
 
 Jul 04 2011  
-HP OmniInet.exe Opcode 20 Buffer Overflow
+[HP OmniInet.exe Opcode 20 Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/misc/hp_omniinet_4.rb)
 
 Jun 25 2011  
-Siemens FactoryLink 8 CSService Logging Buffer Overflow
+[Siemens FactoryLink 8 CSService Logging Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/factorylink_csservice.rb)
 
 Jun 21 2011  
-Black Ice Cover Page ActiveX Control Arbitrary File Download
+[Black Ice Cover Page ActiveX Control Arbitrary File Download](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/blackice_downloadimagefileurl.rb)
 
 Jun 09 2011  
-7-Technologies IGSS 9 IGSSdataServer .RMS Rename Buffer Overflow
+[7-Technologies IGSS 9 IGSSdataServer .RMS Rename Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/igss9_igssdataserver_rename.rb)
 
 May 31 2011  
-7-Technologies IGSS 9 Data Server/Collector Packet Handling
+[7-Technologies IGSS 9 Data Server/Collector Packet Handling](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/igss9_misc.rb)
 
 May 16 2011  
-7-Technologies IGSS <= v9.00.00 b11063 IGSSdataServer.exe Stack Overflow
+[7-Technologies IGSS <= v9.00.00 b11063 IGSSdataServer.exe Stack Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/igss9_igssdataserver_listall.rb)
 
 May 12 2011  
-ICONICS WebHMI ActiveX Buffer Overflow
+[ICONICS WebHMI ActiveX Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/iconics_webhmi_setactivexguid.rb)
 
 May 12 2011  
-SPlayer 3.7 Content-Type Buffer Overflow
+[SPlayer 3.7 Content-Type Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/misc/splayer_content_type.rb)
 
 Apr 28 2011  
-Subtitle Processor 7.7.1 M3U SEH Unicode Buffer Overflow
+[Subtitle Processor 7.7.1 M3U SEH Unicode Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/subtitle_processor_m3u_bof.rb)
 
 Apr 17 2011  
-Adobe Flash Player 10.2.153.1 SWF Memory Corruption Vulnerability
+[Adobe Flash Player 10.2.153.1 SWF Memory Corruption Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/adobe_flashplayer_flash10o.rb)
 
 Apr 09 2011  
-Real Networks Arcade Games StubbyItil.ProcessMgr ActiveX Arbitrary Code Execution
+[Real Networks Arcade Games StubbyItil.ProcessMgr ActiveX Arbitrary Code Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/real_arcade_installerdlg.rb)
 
 Apr 08 2011  
-AOL Desktop 9.6 RTX Buffer Overflow
+[AOL Desktop 9.6 RTX Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/fileformat/aol_desktop_linktag.rb)
 
 Apr 06 2011  
-IBM Lotus Domino iCalendar MAILTO Buffer Overflow
+[IBM Lotus Domino iCalendar MAILTO Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/lotus/domino_icalendar_organizer.rb)
 
 Mar 26 2011  
-VLC AMV Dlangling Pointer Vulnerability
+[VLC AMV Dangling Pointer Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/vlc_amv.rb)
 
 Mar 24 2011  
-HP OpenView NNM nnmRptConfig.exe schdParams Buffer Overflow
+[HP OpenView NNM nnmRptConfig.exe schdParams Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_nnm_nnmrptconfig_schdparams.rb)
 
 Mar 23 2011  
-HP NNM CGI webappmon.exe execvp Buffer Overflow
+[HP NNM CGI webappmon.exe execvp Buffer Overflow](https://www.rapid7.com/db/modules/exploit/windows/http/hp_nnm_webappmon_execvp)
 
 Mar 23 2011  
-HP OpenView NNM nnmRptConfig nameParams Buffer Overflow
+[HP OpenView NNM nnmRptConfig nameParams Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_nnm_nnmrptconfig_nameparams.rb)
 
 Mar 23 2011  
-HP NNM CGI webappmon.exe OvJavaLocale Buffer Overflow
+[HP NNM CGI webappmon.exe OvJavaLocale Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/http/hp_nnm_webappmon_ovjavalocale.rb)
 
 Mar 18 2011  
-RealNetworks RealPlayer CDDA Initialization Vulnerability
+[RealNetworks RealPlayer CDDA Initialization Vulnerability](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/browser/realplayer_cdda_uri.rb)
 
 Jun 02 2010  
-XFTP 3.0 Build 02.39 Long Filename Buffer Overflow
+[XFTP 3.0 Build 02.39 Long Filename Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/ftp/xftp_client_pwd.rb)
 
 May 30 2010  
-IP2location.dll 1.0.0.1 Initialize() Buffer Overflow
+[IP2location.dll 1.0.0.1 Initialize() Buffer Overflow](https://www.exploit-db.com/exploits/12803)
 
 May 22 2010  
-Fumba FTP Client 4.2.0.0 Buffer Overflow
+[Rumba FTP Client 4.2.0.0 Buffer Overflow](https://www.exploit-db.com/exploits/12677)
 
 May 06 2010  
-Ziepod+ 1.0 Cross Application Scripting
+[Ziepod+ 1.0 Cross Application Scripting](https://www.exploit-db.com/exploits/12512)
 
 Feb 05 2010  
-Ipswitch IMail Server 11.0 Password Decryptor
+[Ipswitch IMail Server 11.0 Password Decryptor](https://www.exploit-db.com/exploits/11331)
 
 Jan 07 2010  
-Quick Player 1.2 Unicode Buffer Overflow
+[Quick Player 1.2 Unicode Buffer Overflow](https://www.exploit-db.com/exploits/11046)
 
 Dec 13 2019  
-[HP NNM 7.53 ovalarm.exe Buffer Overflow](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/modules/hp_nnm_ovalarm_buffer_overflow.py)
+[HP NNM 7.53 ovalarm.exe Buffer Overflow](https://www.exploit-db.com/exploits/10394)
