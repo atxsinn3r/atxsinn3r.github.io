@@ -116,6 +116,9 @@ Oct 09 2018
 Sep 18 2018  
 [Use-After-Free Vulnerability for Internal Training](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/use_after_free_vuln.pdf)
 
+Feb 16 2018
+[Modifying Meterpreter to Evade Static Detection](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/modifying_meterpreter_for_evasion.pdf)
+
 Jan 03 2018  
 [Rails Deserialization Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/ruby_on_rails_deserialization.pdf)
 
