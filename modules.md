@@ -502,5 +502,5 @@ Feb 05 2010
 Jan 07 2010  
 [Quick Player 1.2 Unicode Buffer Overflow](https://www.exploit-db.com/exploits/11046)
 
-Dec 13 2019  
+Dec 13 2009  
 [HP NNM 7.53 ovalarm.exe Buffer Overflow](https://www.exploit-db.com/exploits/10394)
