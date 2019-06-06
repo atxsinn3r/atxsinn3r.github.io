@@ -1,6 +1,6 @@
 ## Modules
 
-Most of my modules started off as N-days, and went to the Metasploit repository. I've written a lot of modules, from exploits, post, evasion, tools, etc, so it'd take a long time to compile all into a list. Here are the ones with arbitrary code execution, the rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
+Most of my modules started off as N-days, and went to the Metasploit repository. I've written a lot of modules, from exploits, post, evasion, tools, etc, so it'd take a long time to compile all that into a list. Here are the ones with arbitrary code execution, the rest could be found [here](https://github.com/rapid7/metasploit-framework/search?p=4&q=author+sinn3r&unscoped_q=author+sinn3r).
 
 I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
