@@ -389,9 +389,9 @@ Dec 23 2011
 [Oracle Job Scheduler Named Pipe Command Execution](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/oracle/extjob.rb)
 
 Dec 13 2011  
-CoDeSys SCADA 2.3 Webserver Stack Buffer Overflow
+[CoDeSys SCADA 2.3 Webserver Stack Buffer Overflow](https://github.com/rapid7/metasploit-framework/blob/master//modules/exploits/windows/scada/codesys_web_server.rb)
 
-Oct 12 2011
+Oct 12 2011  
 [Windows Manage Memory Payload Injection](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/local/payload_inject.rb)
 
 Nov 30 2011  
