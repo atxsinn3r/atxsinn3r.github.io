@@ -4,8 +4,11 @@ Most of my modules started off as N-days, and went to the Metasploit repository.
 
 I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
-TBD 2019  
-Cisco Prime Infrastructure Health Monitor TarArchive Directory Traversal Vulnerability
+Jun 10 2019  
+[Cisco Prime Infrastructure runrshell Local Privilege Escalation](https://github.com/rapid7/metasploit-framework/pull/11960)
+
+Jun 07 2019  
+[Cisco Prime Infrastructure Health Monitor TarArchive Directory Traversal Vulnerability](https://github.com/rapid7/metasploit-framework/pull/11956)
 
 May 24 2019  
 [Oracle Application Testing Suite WebLogic Server Administration Console War Deployment](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/http/oats_weblogic_console.rb)
