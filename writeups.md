@@ -2,8 +2,8 @@
 
 ### Blog Posts
 
-TBD 2019  
-Heap Overflow Exploitation on Windows 10 Explained
+Jun 12 2019  
+[Heap Overflow Exploitation on Windows 10 Explained](https://blog.rapid7.com/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
 
 May 03 2018  
 [Hiding Metasploit Shellcode to Evade Windows Defender](https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
