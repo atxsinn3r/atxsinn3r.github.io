@@ -4,6 +4,9 @@ Most of my modules started off as N-days, and went to the Metasploit repository.
 
 I'd also like to thank those who have worked with me to write these modules together. All wonderful memories.
 
+Jun 18 2019  
+[Apache Tomcat CGIServlet enableCmdLineArguments Vulnerability](https://github.com/rapid7/metasploit-framework/pull/11990)
+
 Jun 10 2019  
 [Cisco Prime Infrastructure runrshell Local Privilege Escalation](https://github.com/rapid7/metasploit-framework/pull/11960)
 
