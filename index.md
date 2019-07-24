@@ -12,7 +12,7 @@ I also love animals, and I have a soft spot for dogs and cats!
 
 ## My Pages
 
-* [Modules](./modules.md)
+* [Exploits](./exploits.md)
 * [Writeups](./writeups.md)
 * [Repositories](./repos.md)
 * [Contact Me](./contact.md)
