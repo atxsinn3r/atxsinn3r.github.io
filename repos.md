@@ -26,7 +26,7 @@ Link: [https://github.com/atxsinn3r/VulnCases](https://github.com/atxsinn3r/Vuln
 
 **AMSIScanner**
 
-This is an example of how to use Microsoft's AMSI API to perform a malware scan with C++. The
+This is a C++ example of how to use Microsoft's AMSI API to perform a malware scan with C++. The
 purpose of AMSI is to allow you to integrate your application to support malware scanning,
 but it is beneficial for offensive research too.
 
@@ -34,14 +34,14 @@ Link: [https://github.com/atxsinn3r/amsiscanner](https://github.com/atxsinn3r/am
 
 **EyeDiff**
 
-This is an EXPERIMENTAL tool that allows pentesters to go through screenshots with a GUI, and
-identify potentially easy targets to exploit. It is no longer maintained.
+This is an EXPERIMENTAL tool written in Ruby that allows pentesters to go through screenshots with a GUI,
+and identify potentially easy targets to exploit. It is no longer maintained.
 
 Link: [https://github.com/atxsinn3r/EyeDiff](https://github.com/atxsinn3r/EyeDiff)
 
 **Patch-Finder**
 
-This is a tool that is intended for vulnerability researchers to collect Microsoft patches quickly
+This is a Ruby tool that is intended for vulnerability researchers to collect Microsoft patches quickly
 from their security bulletins. It has a modular design that allows you to find patches from
 different search engines (such as Technet, or Google). This repository is no longer maintained, but
 worked great when I needed to find patches for Internet Explorer or other Microsoft products.
