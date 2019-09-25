@@ -9,6 +9,13 @@ from the SVN days.
 
 Link: [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework)
 
+**Poodle**
+
+This is currently a private repository. It is a PoC framework for exploits written in C++ utilizing
+the Boost framework.
+
+Link: N/A
+
 **VulnCases**
 
 This is a repository that hosts a collection of vulnerable cases I have written for experimental
