@@ -1,5 +1,8 @@
 ## Vuln Analysis
 
+Sep 25 2019  
+[CVE-2019-15954: Total.js CMS 12 Widget Remote Code Execution](https://gist.github.com/atxsinn3r/5f9937828e4395006f1e257ecb90b898)
+
 Sep 12 2019  
 [CVE-2018-14054: LibMP4v2 MP4StringProperty Handling Double Free Vulnerability](https://gist.github.com/atxsinn3r/6d1563e0fbdb9f8f6f06ff553445c58d)
 
