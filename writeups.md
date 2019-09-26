@@ -4,7 +4,7 @@
 
 My blog posts mostly covering new features or content I have done for the Metasploit Framework.
 
-[Vulnerability Analysis](./analysis.md)
+[Vuln Analysis](./analysis.md)
 
 Vulnerabilities I have documented. From setting up vulnerable and debugging environment, to walking
 through the process in detail.
