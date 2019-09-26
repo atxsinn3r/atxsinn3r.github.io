@@ -1,9 +1,46 @@
 ## Vuln Analysis
 
-WIP. More to come.
+Sep 12 2019  
+[CVE-2018-14054: LibMP4v2 MP4StringProperty Handling Double Free Vulnerability](https://gist.github.com/atxsinn3r/6d1563e0fbdb9f8f6f06ff553445c58d)
+
+Jul 18 2019  
+[CVE-2018-18492: Mozilla Firefox Select Element Use-After-Free](https://gist.github.com/atxsinn3r/d5807dbaf91e9a1d66b10f42e55417f4)
+
+Jun 23 2019  
+[CVE-2019-0232: Apache Tomcat CGI Servlet enableCmdLineArguments Vulnerability](https://gist.github.com/atxsinn3r/fcdd8e9411b22fe9a2bbb8eeefb357d2)
+
+May 28 2019  
+[CVE-2019-9692: CMS Made Simple (CMSMS) Showtime2 Post Auth Arbitrary File Upload](https://gist.github.com/atxsinn3r/d8d200e5e1f7573aee61402345c7fa2c)
+
+May 23 2019  
+[CVE-2019-1821: Cisco Prime Infrastructure Archive Traversal](https://gist.github.com/atxsinn3r/ef8272688e3655ef8617a70df2643e44)
+
+May 20 2019  
+[CVE-2017-10271: Oracle WebLogic Server AsyncResponseService Deserialization](https://gist.github.com/atxsinn3r/2172f2bc6ea964066d19a122bbf8f23c)
+
+May 12 2019  
+[CVE-2019-8903: Total.js requestcontinue Directory Traversal](https://gist.github.com/atxsinn3r/7173d5cf0b1bd97bfaea0e2a7df4c66a)
+
+May 03 2019  
+[CVE-2019-2557: Oracle Application Testing Suite DownloadServlet Directory Traversal](https://gist.github.com/atxsinn3r/96b729be4d0592059099e0e096ffe77e)
+
+Apr 23 2019  
+[CVE-2019-5420: Ruby on Rails DoubleTap Development Mode secret_key_base Vulnerability](https://gist.github.com/atxsinn3r/0c8647901452de4256a0b1ca30378296)
+
+Apr 23 2019  
+[CVE-2019-5418: Ruby on Rails DoubleTap Directory Traversal](https://gist.github.com/atxsinn3r/dc4f24c869e0095ed423fc1063bac997)
 
 Mar 26 2019  
 [Q1 2019 Dev Diaries (MailCleaner, Apache Spari, Jira)](https://www.rapid7.com/research/report/metasploit-development-diaries-q1-2019/)
+
+Jan 14 2019  
+[CVE-2018-11770: Apache Spark CreateSubmissionRequest](https://gist.github.com/atxsinn3r/fce494721297e53fb289e9e09b6b5452)
+
+Jan 10 2019  
+[CVE-2018-20323: MailCleaner SOAP API Logs_StartTrace Command Injection](https://gist.github.com/atxsinn3r/0b53cbf12b582b06cda1dc5aa75f6c4e)
+
+Jan 10 2019  
+[Jira Universal Plugin Manager PluginCollectionResource Class Upload Vulnerability](https://gist.github.com/atxsinn3r/a74abb69ecb5a4afa8a8a54cdd6e6123)
 
 Jan 03 2018  
 [Rails Deserialization Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/ruby_on_rails_deserialization.pdf)
