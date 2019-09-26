@@ -12,6 +12,9 @@ Jul 18 2019
 Jun 23 2019  
 [CVE-2019-0232: Apache Tomcat CGI Servlet enableCmdLineArguments Vulnerability](https://gist.github.com/atxsinn3r/fcdd8e9411b22fe9a2bbb8eeefb357d2)
 
+Jun 10 2019  
+[Cisco Prime Infrastructure runshell Local Privilege Escalation](https://gist.github.com/atxsinn3r/d45ee4c6de585ade3bd73642486106bf)
+
 May 28 2019  
 [CVE-2019-9692: CMS Made Simple (CMSMS) Showtime2 Post Auth Arbitrary File Upload](https://gist.github.com/atxsinn3r/d8d200e5e1f7573aee61402345c7fa2c)
 
