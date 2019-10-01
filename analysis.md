@@ -1,5 +1,8 @@
 ## Vuln Analysis
 
+Oct 01 2019  
+[CVE-2019-15142: DjVuLibre UTF8 Out-of-Bound Read Vulnerability](https://gist.github.com/atxsinn3r/d846ef8f3b6fa6387e65d6e744e81a16)
+
 Sep 25 2019  
 [CVE-2019-15954: Total.js CMS 12 Widget Remote Code Execution](https://gist.github.com/atxsinn3r/5f9937828e4395006f1e257ecb90b898)
 
