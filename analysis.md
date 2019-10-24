@@ -1,5 +1,8 @@
 ## Vuln Analysis
 
+TBD 2019  
+VideoLAN Media Player (VLC)
+
 Oct 04 2019  
 [CVE-2019-16928: Exim EHLO Heap Overflow Vulnerability](https://gist.github.com/atxsinn3r/063668f6a2c45a0d0535180510743c16)
 
@@ -58,7 +61,7 @@ Jan 03 2018
 [Rails Deserialization Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/ruby_on_rails_deserialization.pdf)
 
 Dec 14 2015  
-[ManageEngine FileUploadServlet Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/manageengine_fileuploadservlet_vuln.pdf)
+[CVE-2015-8249: ManageEngine FileUploadServlet Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/manageengine_fileuploadservlet_vuln.pdf)
 
 Nov 30 2015  
 [Oracle Beehive PrepareAudioToPlay Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/oracle_beehive_prepareaudiotoplay.pdf)
