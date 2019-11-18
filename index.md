@@ -9,7 +9,8 @@ development, or anything associated with that. This website collects some of the
 things I have published on the web.
 
 I also love animals, and I have a soft spot for dogs and cats! I had a dog named Missy, who
-passed away in 2019 at the age of 10... I miss her a lot.
+passed away in 2019 at the age of 10... I miss her a lot. I also have another dog named
+Mocha, who is overly affectionate. They are like my own kids.
 
 
 ## My Pages
