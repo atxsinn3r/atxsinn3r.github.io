@@ -2,8 +2,8 @@
 
 Hi, I am currently a vulnerability research consultant at Dell.
 
-Before that, I worked as a lead security engineer under the offensive security research branch
-for Metasploit (of Rapid7). I am also formerly part of Exploit-DB for exploit verification in
+Before that, I worked as a lead security engineer under the offensive research branch for
+Metasploit (of Rapid7). I am also formerly part of Exploit-DB for exploit verification in
 the early days, and I was a member of the Corelan team doing security research. I have been
 active in the security community for about ten years, and I have a lot of love for reverse
 engineering, vulnerability, exploit development, or anything associated with that. This website
