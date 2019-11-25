@@ -1,6 +1,6 @@
 ## About Me
 
-Hi, I am currently a vulnerability research consultant at Dell.
+Hi, I am currently a vulnerability research consultant at a large tech corporation.
 
 Before that, I worked as a lead security engineer under the offensive research branch for
 Metasploit (of Rapid7). I was part of Exploit-DB for exploit verification in the early days,
