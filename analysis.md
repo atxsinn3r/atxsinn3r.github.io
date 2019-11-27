@@ -1,8 +1,5 @@
 ## Vuln Analysis
 
-TBD 2019  
-VideoLAN Media Player (VLC)
-
 Oct 04 2019  
 [CVE-2019-16928: Exim EHLO Heap Overflow Vulnerability](https://gist.github.com/atxsinn3r/063668f6a2c45a0d0535180510743c16)
 
