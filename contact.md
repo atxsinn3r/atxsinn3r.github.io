@@ -13,7 +13,6 @@
 **Email**
 
 * atxsinn3r[at]gmail.com [[PGP](https://gist.github.com/atxsinn3r/310d4b45668cac71fc4979ebda5f0106)]
-* wei_chen[at]rapid7.com
 
 **Other ways to find me**
 
