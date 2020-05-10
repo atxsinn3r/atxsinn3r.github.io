@@ -1,5 +1,14 @@
 ## Repositories
 
+**Binary Ninja Plugins**
+
+Binary Ninja is a reverse engineering tool created by Vector 35. These are some plugins I have written in order
+to accomplish certain reversing tasks:
+
+* [BinjaStringsInCode](https://github.com/atxsinn3r/BinjaStringsInCode): Searches strings referenced by code only.
+* [BinjaSymbolSearch](https://github.com/atxsinn3r/BinjaSymbolSearch): Searches symbols with regex.
+* [BinjaHLILDump](https://github.com/atxsinn3r/BinjaHLILDump): Dumps all the decompiled code to a directory in order to do other creative tasks such as diffing.
+
 **Metasploit Framework**
 
 I have been an active contributor for the Metasploit Framework since 2011, and have earned the highest
@@ -11,8 +20,7 @@ Link: [https://github.com/rapid7/metasploit-framework](https://github.com/rapid7
 
 **Poodle**
 
-This is currently a private repository. It is a PoC framework for exploits written in C++ utilizing
-the Boost framework, supporting Linux (Debian) and Mac, also as a Docker image.
+This is currently a private repository. It is a PoC framework for exploits written in C++.
 
 Link: N/A
 
