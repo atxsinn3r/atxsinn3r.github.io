@@ -1,9 +1,9 @@
 ## Vuln Analysis
 
-0day = Original discovery
+0day = Original discovery  
 Nday = Discovered by other
 
-Jun 20 2021 - 0day
+Jun 20 2021 - 0day  
 Place holder : Waiting for disclosure.
 
 Sep 14 2020 - 0day  
@@ -18,7 +18,7 @@ Mar 21 2020 - 0day
 Dec 12 2019 - 0day  
 [CVE-2020-10859 : ZOHO ManageEngine Desktop Central 10 validateAndUploadMultipleDependencies Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/zoho_manageengine_desktop_central10_validateAndUploadMultipleDependencies.pdf)
 
-Dec 16 2019 - 0day
+Dec 16 2019 - 0day  
 Place holder : VLC - still vulnerable.
 
 Oct 04 2019 - Nday  
