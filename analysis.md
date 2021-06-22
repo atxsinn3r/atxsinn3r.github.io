@@ -1,5 +1,11 @@
 ## Vuln Analysis
 
+0day = Original discovery
+Nday = Discovered by other
+
+Jun 20 2021 - 0day
+Place holder : Waiting for disclosure.
+
 Sep 14 2020 - 0day  
 [Github : Httping Multiple Stack Buffer Overflows in create_http_request_header](https://github.com/flok99/httping/issues/51)(Author deleted repository after report: see snapshot [1](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/httping_issues_list.pdf) and [2](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/httping1.pdf) for history)
 
@@ -11,6 +17,9 @@ Mar 21 2020 - 0day
 
 Dec 12 2019 - 0day  
 [CVE-2020-10859 : ZOHO ManageEngine Desktop Central 10 validateAndUploadMultipleDependencies Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/zoho_manageengine_desktop_central10_validateAndUploadMultipleDependencies.pdf)
+
+Dec 16 2019 - 0day
+Place holder : VLC - still vulnerable.
 
 Oct 04 2019 - Nday  
 [CVE-2019-16928: Exim EHLO Heap Overflow Vulnerability](https://gist.github.com/atxsinn3r/063668f6a2c45a0d0535180510743c16)
