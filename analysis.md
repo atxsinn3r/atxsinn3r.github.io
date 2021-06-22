@@ -1,7 +1,7 @@
 ## Vuln Analysis
 
 Sep 14 2020 - 0day  
-[Github : Httping Multiple Stack Buffer Overflows in create_http_request_header](https://github.com/flok99/httping/issues/51)
+[Github : Httping Multiple Stack Buffer Overflows in create_http_request_header](https://github.com/flok99/httping/issues/51)(Author deleted repository after report: see snapshot [1](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/httping_issues_list.pdf) and [2](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/httping1.pdf) for history)
 
 Mar 21 2020 - 0day  
 [ZVE-2020-0632 : ZOHO ManageEngine Applications Manager 14 FileUploadServlet Remote Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/zoho_manageengine_application_manager_fileuploadservlet.pdf)
