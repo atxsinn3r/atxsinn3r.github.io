@@ -4,7 +4,7 @@ Hi, I am currently an offensive security engineer for a software company in the 
 
 Before that, I was a vulnerability research consultant at Dell Inc. I worked on 0day discovery for various Dell products, and I did so mostly through source code auditing. Prior to Dell, I worked as a full-time exploit developer at Metasploit/Rapid7, eventually becoming a lead. In the early days, I started off my professional career as a junior vulnerability researcher at Digital Defense.
 
-However my experience in security actually goes even further back. Before I even found a real job, I volunteered at Exploit-DB to handle and verify exploit submissions. I was also invited to join a team called Corelan, where everyone was just doing security research as a hobby, and eventually all of us turned pro.
+However my experience in security actually goes even further back. Before I even found a real job, I volunteered at Exploit-DB to handle and verify exploit submissions. I was also invited to join a team called Corelan, where everyone was just doing security research as a hobby at the time, but eventually all of us turned pro.
 
 Overall, I have been in the security industry professionally for over ten yeras. I have a lot of curiosity in anything offense, and I always find myself either writing code, or reading code for that purpose. For example, finding a vulnerability, writing an exploit, or building tools.
 
