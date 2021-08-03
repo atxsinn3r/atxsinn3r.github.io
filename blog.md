@@ -1,5 +1,8 @@
 ## Blog Posts
 
+Aug 02 2021  
+A Performance Question: Regular Expression as a Security Fix
+
 Jun 12 2019  
 [Heap Overflow Exploitation on Windows 10 Explained](https://blog.rapid7.com/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
 
