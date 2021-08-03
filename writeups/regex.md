@@ -20,7 +20,7 @@ I defined some rules about the check. On a high level, the check should:
 
 * Tell me if an input is a legal IPv4 string, where each octet must be a decimal between 0 to 255.
 * IPv4 in decimal format is not considered.
-* The check is executed 0x8000 times, which is roughly about half a million.
+* The check is executed 0x8000 times.
 
 For example, the check should accept this:
 
@@ -286,7 +286,7 @@ end
 
 ## Results
 
-The following shows the performance results for each test case. Each test was run three times, each time was 0x80000 iterations. Optimization flags were tried for the C, but honestly I did not see much difference. Ruby was run on version 2.6.5p114.
+The following shows the performance results for each test case. Each test was run three times, each time was 0x8000 iterations. Optimization flags were tried for the C, but honestly I did not see much difference. Ruby was run on version 2.6.5p114.
 
 |                                   | C with Regex - Multiple | C with Regex - once | C without Regex | Ruby with Regex - Multiple #scan | Ruby with Regex - Once #match |
 | :-------------------------------- | :---------------------- | :------------------ | :-------------- | :------------------------------- | :---------------------------- |
