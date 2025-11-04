@@ -4,13 +4,13 @@ Aug 02 2021
 [A Performance Question: Regular Expression as a Security Fix](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/regex.md)
 
 Jun 12 2019  
-[Heap Overflow Exploitation on Windows 10 Explained](https://blog.rapid7.com/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
+[Heap Overflow Exploitation on Windows 10 Explained](https://www.rapid7.com/blog/post/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
 
 May 03 2018  
-[Hiding Metasploit Shellcode to Evade Windows Defender](https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
+[Hiding Metasploit Shellcode to Evade Windows Defender]([https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/](https://www.rapid7.com/blog/post/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
 
 Mar 08 2017  
-[Attacking Microsoft Office OpenOffice with Metasploit Macro Exploits](https://blog.rapid7.com/2017/03/08/attacking-microsoft-office-openoffice-with-metasploit-macro-exploits/)
+[Attacking Microsoft Office OpenOffice with Metasploit Macro Exploits](https://www.rapid7.com/blog/post/2017/03/08/attacking-microsoft-office-openoffice-with-metasploit-macro-exploits/)
 
 Jan 09 2017  
 [Breaking Metasploitable3: The King of Clubs](https://blog.rapid7.com/2017/01/09/breaking-metasploitable3-the-king-of-clubs/)
