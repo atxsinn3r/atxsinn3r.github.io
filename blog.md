@@ -4,7 +4,7 @@ Aug 02 2021
 [A Performance Question: Regular Expression as a Security Fix](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/regex.md)
 
 Jun 12 2019  
-[Heap Overflow Exploitation on Windows 10 Explained](https://www.rapid7.com/blog/post/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
+[Heap Overflow Exploitation on Windows 10 Explained](https://www.rapid7.com/blog/post/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/) [archived version](archive/Heap Overflow Exploitation on Windows 10 Explained/doc.md)
 
 May 03 2018  
 [Hiding Metasploit Shellcode to Evade Windows Defender](https://www.rapid7.com/blog/post/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
