@@ -14,7 +14,7 @@ In other words, I am just curious how often my clients were possibly rolling the
 
 ## Rules of the Experiment
 
-To explore this topic, I wanted to get a feel of what fast is supposed to look like in different implementations, so I a few IPv4 checks in C. And then I wrote them in Ruby, because in generally people believe the language itself is just slower even with JIT.
+To explore this topic, I wanted to get a feel of what fast is supposed to look like in different implementations, so I wrote a few IPv4 checks in C. And then I wrote them in Ruby, because generally people believe the language itself is just slower even with JIT.
 
 I defined some rules about the check. On a high level, the check should:
 
