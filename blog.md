@@ -7,7 +7,7 @@ Jun 12 2019
 [Heap Overflow Exploitation on Windows 10 Explained](https://www.rapid7.com/blog/post/2019/06/12/heap-overflow-exploitation-on-windows-10-explained/)
 
 May 03 2018  
-[Hiding Metasploit Shellcode to Evade Windows Defender]([https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/](https://www.rapid7.com/blog/post/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
+[Hiding Metasploit Shellcode to Evade Windows Defender](https://blog.rapid7.com/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/(https://www.rapid7.com/blog/post/2018/05/03/hiding-metasploit-shellcode-to-evade-windows-defender/)
 
 Mar 08 2017  
 [Attacking Microsoft Office OpenOffice with Metasploit Macro Exploits](https://www.rapid7.com/blog/post/2017/03/08/attacking-microsoft-office-openoffice-with-metasploit-macro-exploits/)
