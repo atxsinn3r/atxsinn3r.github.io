@@ -1,3 +1,10 @@
+# The New Metasploit Browser Autopwn: Strikes Faster and Smarter P2
+
+* This was published in July 16 2015 by Wei Chen (_sinn3r)
+* Originally published [here](https://www.rapid7.com/blog/post/2015/07/16/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-2/)
+
+## Introduction
+
 Hello again,
 
 Welcome back! So yesterday we did an introduction about the brand new Browser Autopwn 2, if you have not read that, make sure to [check it out](https://www.rapid7.com/blog/post/2015/07/15/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-1/). And today, let's talk about how to use it, what you can do with it for better vulnerability validation and penetration testing.
