@@ -22,10 +22,10 @@ Oct 08 2015
 [New Metasploit Tools to Collect Microsoft Patches](https://blog.rapid7.com/2015/10/08/new-metasploit-tools-to-collect-microsoft-patches/)
 
 Jul 16 2015  
-[The New Metasploit Browser Autopwn: Strikes Faster and Smarter P2](https://blog.rapid7.com/2015/07/16/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-2/) (Archived)
+[The New Metasploit Browser Autopwn: Strikes Faster and Smarter P2](https://blog.rapid7.com/2015/07/16/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-2/) ([Archived](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/archive/The%20New%20Metasploit%20Browser%20Autopwn%3A%20Strikes%20Faster%20and%20Smarter%20-%20Part%202/README.md))
 
 Jul 15 2015  
-[The New Metasploit Browser Autopwn: Strikes Faster and Smarter P1](https://blog.rapid7.com/2015/07/15/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-1/) (Archived)
+[The New Metasploit Browser Autopwn: Strikes Faster and Smarter P1](https://blog.rapid7.com/2015/07/15/the-new-metasploit-browser-autopwn-strikes-faster-and-smarter-part-1/) ([Archived](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/archive/The%20New%20Metasploit%20Browser%20Autopwn%3A%20Strikes%20Faster%20and%20Smarter%20-%20Part%201/README.md))
 
 Mar 25 2015  
 [Using Host Tagging in Metasploit for Penetration Testing](https://blog.rapid7.com/2015/03/25/using-host-tagging-in-metasploit-for-penetration-testing/)
