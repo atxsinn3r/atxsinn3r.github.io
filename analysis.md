@@ -15,7 +15,7 @@ Dec 12 2019
 [CVE-2020-10859 : ZOHO ManageEngine Desktop Central 10 validateAndUploadMultipleDependencies Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/zoho_manageengine_desktop_central10_validateAndUploadMultipleDependencies.pdf)
 
 Oct 16 2019  
-VLC HTTP VLM Remote Code Execution
+[VLC HTTP VLM Remote Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/tree/master/writeups/VLC%20HTTP%20VLM%20Remote%20Code%20Execution)
 
 ### Nday (found by others)
 
