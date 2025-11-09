@@ -29,11 +29,9 @@ I did Browser Autopwn 2 in two stages:
 
 And it was out, and it achieved what I wanted it to achieve. It was cool. I also learned that even the NSA's TAO (Tailored Access Operations) unit was developing the same thing called FOXACID. From I can tell it was a bigger codebase. Of course, Metasploit's Browser Autopwn 2 was no match to that, but that leak confirmed I was seeing a need that the NSA was seeing, and I was pretty happy with that idea.
 
-Like I said, I was pretty passionate with this thing. So I made a video about it, but the PR team rejected it. I remember it was because I had Jacob Appelbaum's footage in it and he was considered a controversial person, so my video was considered political. I didn't want to fight this too much but it was just misunderstood. I made this video with my heart and soul emphasizing that browser threats were emerging and it was serious.
+Like I said, I was pretty passionate with this thing. So I made a video about it, but the PR team rejected it. I remember it was because I had Jacob Appelbaum's footage in it and he was considered a controversial person, so my video was considered political. I didn't want to fight this too much but it was just misunderstood. I made this video with my heart and soul emphasizing that browser threats were emerging and it was serious. And I used a mix of footages to express what I wanted to say. They were my words.
 
-That was about 12 years ago.
-
-I go back to Metasploit's codebase, it's just like walking into a house that I left a long time ago. And everything is just like the way it was. Nothing has changed. Did this effort all die with me when I left? All this should be pretty harmless by now. So here I am. I finally let go a piece of history, a museum piece, that I secretly kept with me for 12 years:
+That was about 12 years ago. All this should be pretty harmless by now. So here I am. I finally let go a piece of history, a museum piece, that I secretly kept with me for 12 years:
 
 https://www.youtube.com/watch?v=oGaFUWiN3nU
 
