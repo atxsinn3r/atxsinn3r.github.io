@@ -17,10 +17,10 @@ Dec 12 2019
 Oct 16 2019  
 [VLC HTTP VLM Remote Code Execution](https://github.com/atxsinn3r/atxsinn3r.github.io/tree/master/writeups/VLC%20HTTP%20VLM%20Remote%20Code%20Execution)
 
-Dec 14 2015  - 0day  
+Dec 14 2015  
 [CVE-2015-8249: ManageEngine FileUploadServlet Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/manageengine_fileuploadservlet_vuln.pdf)
 
-Nov 30 2015 - 0day  
+Nov 30 2015  
 [Oracle Beehive PrepareAudioToPlay Vulnerability](https://github.com/atxsinn3r/atxsinn3r.github.io/blob/master/writeups/oracle_beehive_prepareaudiotoplay.pdf)
 
 ### Nday (found by others)
